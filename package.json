@@ -1,13 +1,14 @@
 {
-  "name": "whorebot",
-  "version": "1.0.0",
+  "name": "lindsay-thesorton",
+  "version": "master",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node deployCommands.js; node index.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@api-typings/discord": "^6.0.0",
     "@discordjs/builders": "^0.14.0",
